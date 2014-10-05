@@ -1,6 +1,6 @@
-require 'camelot/frontend/version'
+require 'camelotcms/frontend/version'
 
-module Camelot
+module Camelotcms
   module Frontend
     # Your code goes here...
   end

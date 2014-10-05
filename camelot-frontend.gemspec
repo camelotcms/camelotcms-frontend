@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'camelot/frontend/version'
+require 'camelotcms/frontend/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'camelot-frontend'
-  spec.version       = Camelot::Frontend::VERSION
+  spec.name          = 'camelotcms-frontend'
+  spec.version       = Camelotcms::Frontend::VERSION
   spec.authors       = ['David Freerksen']
   spec.email         = ['dfreerksen@gmail.com']
   spec.summary       = %q{TODO: Write a short summary. Required.}
